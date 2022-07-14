@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(41, 50, 144), rgb(63, 154, 207));
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    font-weight: 550;
+    /* justify-content: space-between; */
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.lodo-area {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.nav-links ul a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links ul a:hover {
+    color: rgb(159, 230, 78);
+
+}
+
+.infomation {
+    width: 1000px;
+    height: 1000px;
+    /* background: #ccc; */
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+
+#circle {
+    width: 800px;
+    height: 800px;
+    background: #ccc;
+    position: absolute;
+    border-radius: 50%;
+    top: 8%;
+    left: 5%;
+}
+
+.feature {
+    position: absolute;
+    /* top: 400px;
+    right: 70px; */
+    color: white;
+}
+
+
+
+.feature-one {
+    /* display: flex; */
+    top: 400px;
+    right: 70px;
+}
+
+.feature-two {
+    top:100px;
+    left: 340px;
+    /* color: white; */
+}
+
+.feature-three {
+    bottom: 450%;
+    left: 50px;
+}
+
+.feature-four {
+    bottom: 150px;
+    right: 370px;
+}
